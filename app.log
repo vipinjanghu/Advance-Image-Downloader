@@ -1,0 +1,54 @@
+2023-02-01 17:47:34,835  app_logger  INFO: Email verified and exist :vipinjanghu40@gmail.com
+2023-02-01 17:47:34,840  app_logger  INFO: Successfully scheduled keyboard at 2023-01-27 11:34:00 by vipinjanghu40@gmail.com
+2023-02-01 17:47:34,843  werkzeug  INFO: 127.0.0.1 - - [01/Feb/2023 17:47:34] "POST /schd HTTP/1.1" 200 -
+2023-02-01 17:48:20,951  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 17:48:20 IST)" (scheduled at 2023-02-01 17:48:20.949495+05:30)
+2023-02-01 17:48:46,433  app_logger  ERROR: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Traceback (most recent call last):
+  File "C:\Users\vipin\OneDrive\Desktop\Advance Image Scrapper\scrapper.py", line 57, in scrape_images
+    "return Math.max( document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );")
+  File "C:\Users\vipin\anaconda3\envs\Advance Image Scrapper\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 635, in execute_script
+    'args': converted_args})['value']
+  File "C:\Users\vipin\anaconda3\envs\Advance Image Scrapper\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\vipin\anaconda3\envs\Advance Image Scrapper\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+
+2023-02-01 17:48:47,319  app_logger  ERROR: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Traceback (most recent call last):
+  File "C:\Users\vipin\OneDrive\Desktop\Advance Image Scrapper\scrapper.py", line 57, in scrape_images
+    "return Math.max( document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );")
+  File "C:\Users\vipin\anaconda3\envs\Advance Image Scrapper\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 635, in execute_script
+    'args': converted_args})['value']
+  File "C:\Users\vipin\anaconda3\envs\Advance Image Scrapper\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\vipin\anaconda3\envs\Advance Image Scrapper\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+
+2023-02-01 17:48:49,852  app_logger  INFO: Successfully Download the images:keyboard
+2023-02-01 17:48:50,146  app_logger  INFO: Successfully Download the images:keyboard
+2023-02-01 17:48:56,640  app_logger  INFO: Successfully sent the link of images to :vipinjanghu40@gmail.com
+2023-02-01 17:48:56,643  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 17:49:20 IST)" executed successfully
+2023-02-01 17:48:57,577  app_logger  INFO: Successfully sent the link of images to :vipinjanghu40@gmail.com
+2023-02-01 17:48:57,579  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 17:49:19 IST)" executed successfully
+2023-02-01 18:13:06,690  app_logger  INFO: Email verified and exist :vipinjanghu40@gmail.com
+2023-02-01 18:13:06,692  app_logger  INFO: Successfully scheduled keyboard at 2023-01-27 11:34:00 by vipinjanghu40@gmail.com
+2023-02-01 18:13:06,693  werkzeug  INFO: 127.0.0.1 - - [01/Feb/2023 18:13:06] "POST /schd HTTP/1.1" 200 -
+2023-02-01 18:14:55,726  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:02:00], next run at: 2023-02-01 18:14:55 IST)" (scheduled at 2023-02-01 18:14:55.715095+05:30)
+2023-02-01 18:15:39,237  app_logger  INFO: Successfully Get the Source links of images
+2023-02-01 18:15:40,457  app_logger  INFO: Successfully Download the images:keyboard
+2023-02-01 18:15:41,602  app_logger  INFO: Successfully Get the Source links of images
+2023-02-01 18:15:43,021  app_logger  INFO: Successfully Download the images:keyboard
+2023-02-01 18:15:45,111  app_logger  INFO: Successfully sent the link of images to :vipinjanghu40@gmail.com
+2023-02-01 18:15:47,128  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:02:00], next run at: 2023-02-01 18:16:55 IST)" executed successfully
+2023-02-01 18:15:47,743  app_logger  INFO: Successfully sent the link of images to :vipinjanghu40@gmail.com
+2023-02-01 18:15:47,745  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:02:00], next run at: 2023-02-01 18:16:54 IST)" executed successfully

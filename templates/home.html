@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schedule Job Form</title>
+         <style>
+            h1{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+         <h1>Schedule Job</h1>
+        <form action="/schd" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="datetime">Date and Time:</label>
+            <input type="text" id="datetime" name="datetime">
+            <label for="datetime">(YYYY-MM-DD HH:MM):</label><br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
