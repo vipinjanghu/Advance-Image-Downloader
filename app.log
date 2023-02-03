@@ -35,3 +35,6 @@
 2023-02-01 21:44:23,379  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:45:23 IST)" executed successfully
 2023-02-01 21:45:17,534  app_logger  INFO: Something wrong with email id: vipinjanghu02@gmail.com
 2023-02-01 21:45:17,536  werkzeug  INFO: 127.0.0.1 - - [01/Feb/2023 21:45:17] "POST /schd HTTP/1.1" 200 -
+2023-02-03 21:08:50,889  app_logger  INFO: Email verified and exist: vipinjanghu40@gmail.com
+2023-02-03 21:08:50,892  app_logger  INFO: Successfully scheduled vipin at 2023-02-01 10:25:00 by vipinjanghu40@gmail.com
+2023-02-03 21:08:50,902  werkzeug  INFO: 127.0.0.1 - - [03/Feb/2023 21:08:50] "POST /schd HTTP/1.1" 200 -
