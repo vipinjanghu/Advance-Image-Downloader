@@ -1,4 +1,5 @@
 import smtplib
+from constant import email_id,password
 from  app_logger import log
 
 def send_email(to,subject, body):
@@ -16,7 +17,7 @@ def send_email(to,subject, body):
         server.starttls()
 
         # Logging into the email account
-        server.login("Sender_Email_id", "password")
+        server.login(email_id,password)
 
         # Creating the message to be sent
         message = f"Subject: {subject}\n\n{body}"
