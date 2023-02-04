@@ -3,6 +3,7 @@ from flask_cors import CORS, cross_origin
 from collector import save_to_csv
 from validate import validator
 from scheduler import job
+from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
 
 
@@ -28,6 +29,7 @@ def sche():
     date_time=request.form['date_time']
     email=request.form['email']
     status=validator(email)
+
     if status=="valid":
         save_to_csv(name,date_time,email)
         return render_template('final.html')

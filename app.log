@@ -1,40 +1,26 @@
-2023-02-01 21:23:21,631  app_logger  INFO: Email verified and exist: vipinjanghu40@gmail.com
-2023-02-01 21:23:21,642  app_logger  INFO: Successfully scheduled keyboard at 2023-02-01 10:25:00 by vipinjanghu40@gmail.com
-2023-02-01 21:23:21,643  werkzeug  INFO: 127.0.0.1 - - [01/Feb/2023 21:23:21] "POST /schd HTTP/1.1" 200 -
-2023-02-01 21:23:49,028  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:23:49 IST)" (scheduled at 2023-02-01 21:23:49.021752+05:30)
-2023-02-01 21:24:15,545  app_logger  INFO: Successfully obtained the source links of images
-2023-02-01 21:24:15,687  app_logger  INFO: Successfully obtained the source links of images
-2023-02-01 21:24:16,936  app_logger  INFO: Successfully Downloaded the images: keyboard
-2023-02-01 21:24:17,233  app_logger  INFO: Successfully Downloaded the images: keyboard
-2023-02-01 21:24:22,125  app_logger  INFO: Successfully sent the link of images to :vipinjanghu40@gmail.com
-2023-02-01 21:24:22,133  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:24:49 IST)" executed successfully
-2023-02-01 21:24:22,636  app_logger  INFO: Successfully sent the link of images to :vipinjanghu40@gmail.com
-2023-02-01 21:24:22,641  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:24:48 IST)" executed successfully
-2023-02-01 21:24:48,141  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:24:48 IST)" (scheduled at 2023-02-01 21:24:48.126173+05:30)
-2023-02-01 21:24:48,151  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:25:48 IST)" executed successfully
-2023-02-01 21:24:49,045  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:24:49 IST)" (scheduled at 2023-02-01 21:24:49.021752+05:30)
-2023-02-01 21:24:49,050  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:25:49 IST)" executed successfully
-2023-02-01 21:25:48,143  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:25:48 IST)" (scheduled at 2023-02-01 21:25:48.126173+05:30)
-2023-02-01 21:25:48,145  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:26:48 IST)" executed successfully
-2023-02-01 21:25:49,032  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:25:49 IST)" (scheduled at 2023-02-01 21:25:49.021752+05:30)
-2023-02-01 21:25:49,037  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:26:49 IST)" executed successfully
-2023-02-01 21:26:48,129  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:26:48 IST)" (scheduled at 2023-02-01 21:26:48.126173+05:30)
-2023-02-01 21:26:48,131  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:27:48 IST)" executed successfully
-2023-02-01 21:26:49,025  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:26:49 IST)" (scheduled at 2023-02-01 21:26:49.021752+05:30)
-2023-02-01 21:26:49,028  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:27:49 IST)" executed successfully
-2023-02-01 21:27:48,131  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:27:48 IST)" (scheduled at 2023-02-01 21:27:48.126173+05:30)
-2023-02-01 21:27:48,131  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:28:48 IST)" executed successfully
-2023-02-01 21:27:49,033  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:27:49 IST)" (scheduled at 2023-02-01 21:27:49.021752+05:30)
-2023-02-01 21:27:49,037  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:28:49 IST)" executed successfully
-2023-02-01 21:42:44,767  app_logger  INFO: Email verified and exist: vipinjanghu40@gmail.com
-2023-02-01 21:42:44,770  app_logger  INFO: Successfully scheduled iphone at 2023-02-02 10:25:00 by vipinjanghu40@gmail.com
-2023-02-01 21:42:44,771  werkzeug  INFO: 127.0.0.1 - - [01/Feb/2023 21:42:44] "POST /schd HTTP/1.1" 200 -
-2023-02-01 21:43:23,369  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:43:23 IST)" (scheduled at 2023-02-01 21:43:23.362063+05:30)
-2023-02-01 21:43:23,375  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:44:23 IST)" executed successfully
-2023-02-01 21:44:23,375  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:44:23 IST)" (scheduled at 2023-02-01 21:44:23.362063+05:30)
-2023-02-01 21:44:23,379  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-01 21:45:23 IST)" executed successfully
-2023-02-01 21:45:17,534  app_logger  INFO: Something wrong with email id: vipinjanghu02@gmail.com
-2023-02-01 21:45:17,536  werkzeug  INFO: 127.0.0.1 - - [01/Feb/2023 21:45:17] "POST /schd HTTP/1.1" 200 -
-2023-02-03 21:08:50,889  app_logger  INFO: Email verified and exist: vipinjanghu40@gmail.com
-2023-02-03 21:08:50,892  app_logger  INFO: Successfully scheduled vipin at 2023-02-01 10:25:00 by vipinjanghu40@gmail.com
-2023-02-03 21:08:50,902  werkzeug  INFO: 127.0.0.1 - - [03/Feb/2023 21:08:50] "POST /schd HTTP/1.1" 200 -
+2023-02-04 21:57:03,488  app_logger  INFO: Email verified and exist: vipinjanghu22@gmail.com
+2023-02-04 21:57:03,491  app_logger  INFO: Successfully scheduled mouse at 2023-02-04 21:57:00 by vipinjanghu22@gmail.com
+2023-02-04 21:57:03,496  werkzeug  INFO: 127.0.0.1 - - [04/Feb/2023 21:57:03] "POST /schd HTTP/1.1" 200 -
+2023-02-04 21:58:11,136  app_logger  INFO: Email verified and exist: vipinjanghu40@gmail.com
+2023-02-04 21:58:11,138  app_logger  INFO: Successfully scheduled mouse at 2023-02-01 10:25:00 by vipinjanghu40@gmail.com
+2023-02-04 21:58:11,139  werkzeug  INFO: 127.0.0.1 - - [04/Feb/2023 21:58:11] "POST /schd HTTP/1.1" 200 -
+2023-02-04 21:58:42,173  app_logger  INFO: Email verified and exist: vipinjanghu40@gmail.com
+2023-02-04 21:58:42,176  app_logger  INFO: Successfully scheduled mouse at 2023-02-01 10:25:00 by vipinjanghu40@gmail.com
+2023-02-04 21:58:42,179  werkzeug  INFO: 127.0.0.1 - - [04/Feb/2023 21:58:42] "POST /schd HTTP/1.1" 200 -
+2023-02-04 21:59:38,921  app_logger  INFO: Email verified and exist: vipinjanghu22@gmail.com
+2023-02-04 21:59:38,923  app_logger  INFO: Successfully scheduled mouse at 2023-02-04 22:00:00 by vipinjanghu22@gmail.com
+2023-02-04 21:59:38,924  werkzeug  INFO: 127.0.0.1 - - [04/Feb/2023 21:59:38] "POST /schd HTTP/1.1" 200 -
+2023-02-04 22:00:15,790  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:00:15 IST)" (scheduled at 2023-02-04 22:00:15.775207+05:30)
+2023-02-04 22:01:15,785  apscheduler.scheduler  WARNING: Execution of job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:01:15 IST)" skipped: maximum number of running instances reached (1)
+2023-02-04 22:01:18,462  app_logger  INFO: Successfully obtained the source links of images
+2023-02-04 22:01:18,818  app_logger  INFO: Successfully obtained the source links of images
+2023-02-04 22:01:30,508  app_logger  INFO: Successfully Downloaded the images: mouse
+2023-02-04 22:01:30,857  app_logger  INFO: Successfully Downloaded the images: mouse
+2023-02-04 22:01:34,894  app_logger  INFO: Successfully sent the link of images to :vipinjanghu22@gmail.com
+2023-02-04 22:01:34,897  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:02:14 IST)" executed successfully
+2023-02-04 22:02:05,142  app_logger  INFO: Successfully sent the link of images to :vipinjanghu22@gmail.com
+2023-02-04 22:02:05,146  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:02:15 IST)" executed successfully
+2023-02-04 22:02:14,821  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:02:14 IST)" (scheduled at 2023-02-04 22:02:14.810760+05:30)
+2023-02-04 22:02:14,824  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:03:14 IST)" executed successfully
+2023-02-04 22:02:15,775  apscheduler.executors.default  INFO: Running job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:02:15 IST)" (scheduled at 2023-02-04 22:02:15.775207+05:30)
+2023-02-04 22:02:15,777  apscheduler.executors.default  INFO: Job "job (trigger: interval[0:01:00], next run at: 2023-02-04 22:03:15 IST)" executed successfully

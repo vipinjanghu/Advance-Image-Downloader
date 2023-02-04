@@ -16,7 +16,7 @@ def send_email(to,subject, body):
         server.starttls()
 
         # Logging into the email account
-        server.login("Email_id", "pssword")
+        server.login("Sender_Email_id", "password")
 
         # Creating the message to be sent
         message = f"Subject: {subject}\n\n{body}"

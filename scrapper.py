@@ -4,10 +4,11 @@ import requests
 from constant import url
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 from app_logger import log
 
 
-def scrape_images(name, num_images=10):
+def scrape_images(name, num_images=100):
     """
     scrape_image will download certain number of images from google and save them to a specific path.
     :param name: name of that object who's images we want to scrape.
@@ -15,9 +16,11 @@ def scrape_images(name, num_images=10):
     :return: images
     """
     try:
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
         driver_path = "chromedriver.exe"
         # Create a webdriver object and set the path to the chromedriver executable
-        driver = webdriver.Chrome(executable_path=driver_path)
+        driver = webdriver.Chrome(executable_path=driver_path,chrome_options=chrome_options)
 
         # Navigate to Google Images
         driver.get(url)
