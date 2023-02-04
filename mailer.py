@@ -23,7 +23,7 @@ def send_email(to,subject, body):
         message = f"Subject: {subject}\n\n{body}"
 
         # Sending the email
-        server.sendmail("vipinjanghu40@gmail.com", to, message)
+        server.sendmail(email_id, to, message)
 
         # Closing the connection to the email server
         server.quit()
